@@ -1,3 +1,4 @@
+mvn -v
 FROM java:8
 #FROM ubuntu:latest
 MAINTAINER test
