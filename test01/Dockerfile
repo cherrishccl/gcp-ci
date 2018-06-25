@@ -2,7 +2,7 @@ FROM java:8
 #FROM ubuntu:latest
 MAINTAINER test
 VOLUME /home/container
-ADD ./target/gcp-ci-1.0.0.jar app.jar
+ADD gcp-ci-1.0.0.jar app.jar
 
 #ADD jdk8.tar.gz /usr/java/
 ENV JAVA_HOME=/usr/java/jdk1.8.0_152
